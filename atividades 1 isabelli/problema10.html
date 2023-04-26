@@ -1,0 +1,13 @@
+<meta charset="UTF-8"> 
+<script>
+const data1 = prompt(`Insira uma data em dias, horas, minutos e segundos: ` )
+const dias = prompt(`Insira apenas os dias dessa data: `)
+const horas = prompt(`Insira apenas as horas dessa data: `)
+const minutos = prompt(`Insira apenas os minutos dessa data: `)
+const segundos = prompt(`Insira apenas os segundos dessa data: `)
+
+const segundosTotais= Number(dias)*Number(86400) + Number(horas)*Number(3600) + Number(minutos)*Number(60) + Number(segundos)
+
+alert( `No total a data em segundos é: ${segundosTotais} segundos.`);
+
+</script>
